@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Taxiify</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <script src="assets/react.js"></script>
+    <script src="assets/react-dom.js"></script>
+    <script src="assets/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script src="https://www.gstatic.com/firebasejs/3.6.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBd3TIcRIq7k7qHxjyoRVKp-4KrakhNmd8",
+        authDomain: "taxi-25337.firebaseapp.com",
+        databaseURL: "https://taxi-25337.firebaseio.com",
+        storageBucket: "taxi-25337.appspot.com",
+        messagingSenderId: "160613207796"
+      };
+      firebase.initializeApp(config);
+
+      // Get a reference to the database service
+      var database = firebase.database();
+    </script>
+    <script src="assets/script.js" type="text/babel"></script>
+  </body>
+</html>

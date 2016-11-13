@@ -1,0 +1,81 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+  background: #ECEFF1;
+  color: rgba(0,0,0,0.87);
+  margin: 0;
+  padding: 25px;
+}
+
+a {
+  color: rgb(3,155,229);
+}
+
+#sidebar {
+  margin: 0 0 25px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 2px;
+  background: white;
+  padding: 15px 5px;
+}
+
+#sidebar h1 {
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  margin: -5px 0 0 5px;
+}
+
+#sidebar p {
+  font-weight: 300;
+  line-height: 150%;
+}
+
+#sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+#sidebar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+#sidebar li.left {float: left; margin-top: 8px;}
+
+#sidebar li a {
+  display: inline-block;
+  padding: 8px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  background: rgb(3,155,229);
+  color: white;
+  border: 1px solid rgb(3,155,229);
+  border-radius: 3px;
+  font-size: 14px;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+  cursor: pointer;
+}
+
+#sidebar li a:hover {background: rgba(3,155,229,0.75);}
+#sidebar li a:active {background: rgba(3,155,229,0.5);}
+
+#map {width: 100%; background: url('bg.jpg') #eadac9; box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+border-radius: 2px; position: relative; height: calc(100vh - 145px);}
+#map .buffer {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  top: 0;
+  left: 0;
+}
+#map .message {padding: 50px; text-align: center;}
+
+.taxi {z-index: 1;}
+.person, .taxi {width: 50px; height: 50px; position: absolute;}
+.person img, .taxi img {width: 100%;}
+.taxi.north img {transform: rotate(90deg);}
+.taxi.south img {transform: rotate(-90deg);}
+.taxi.east img {transform: scaleX(-1);}
