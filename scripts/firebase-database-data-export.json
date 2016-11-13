@@ -1,0 +1,162 @@
+{
+  "persons" : {
+    "-KWRfD8ZrmHddm2xuGBF" : {
+      "coordinates" : {
+        "x" : 52,
+        "y" : 30
+      }
+    },
+    "-KWRfDDjDWtFOkQ8nCUj" : {
+      "coordinates" : {
+        "x" : 75,
+        "y" : 35
+      }
+    },
+    "-KWRfDH-GTCT8fPEVEfh" : {
+      "coordinates" : {
+        "x" : 65,
+        "y" : 64
+      }
+    },
+    "-KWRfDP8KqhtxvkGEHdo" : {
+      "coordinates" : {
+        "x" : 1,
+        "y" : 64
+      }
+    },
+    "-KWSuyk34-v6lDOQ6Kpw" : {
+      "coordinates" : {
+        "x" : 71,
+        "y" : 19
+      }
+    },
+    "-KWSuymSCZaFkEve-dGR" : {
+      "coordinates" : {
+        "x" : 20,
+        "y" : 41
+      }
+    },
+    "-KWSuyoTCVXes1dpAT5h" : {
+      "coordinates" : {
+        "x" : 5,
+        "y" : 45
+      }
+    },
+    "-KWSuyr-QDxfkb8YJ1E5" : {
+      "coordinates" : {
+        "x" : 13,
+        "y" : 55
+      }
+    },
+    "-KWSuytOoCO7H7Xj9sS8" : {
+      "coordinates" : {
+        "x" : 72,
+        "y" : 86
+      }
+    },
+    "-KWSuyyBnOspOGG2IMaC" : {
+      "coordinates" : {
+        "x" : 47,
+        "y" : 43
+      }
+    }
+  },
+  "taxis" : {
+    "-KWRfCEvQHQzl3ev-F9a" : {
+      "axis" : 0,
+      "coordinates" : {
+        "x" : 81,
+        "y" : 84
+      },
+      "direction" : "E"
+    },
+    "-KWRfCICKDyqnv6W0ulc" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 80,
+        "y" : 89
+      },
+      "direction" : "S"
+    },
+    "-KWRfCRw0utAIsXeV705" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 28,
+        "y" : 55
+      },
+      "direction" : "S"
+    },
+    "-KWRfCUxIGhpazjs-5MG" : {
+      "axis" : 0,
+      "coordinates" : {
+        "x" : 37,
+        "y" : 98
+      },
+      "direction" : "E"
+    },
+    "-KWRfCYE5XMUYGvmt6Fu" : {
+      "axis" : 0,
+      "coordinates" : {
+        "x" : 20,
+        "y" : 45
+      },
+      "direction" : "E"
+    },
+    "-KWRfCd2cxYN050zoXt5" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 91,
+        "y" : 17
+      },
+      "direction" : "S"
+    },
+    "-KWRfCgCrlZDBzVAdk_w" : {
+      "axis" : 0,
+      "coordinates" : {
+        "x" : 8,
+        "y" : 15
+      },
+      "direction" : "W"
+    },
+    "-KWRfCjEVjCf18PBo9zP" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 62,
+        "y" : 57
+      },
+      "direction" : "S"
+    },
+    "-KWRfCmOZZgBfutWC3I6" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 13,
+        "y" : 36
+      },
+      "direction" : "N"
+    },
+    "-KWSuy5jEs1mnsfHLn9w" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 24,
+        "y" : 49
+      },
+      "direction" : "N"
+    },
+    "-KWSuyCvxo3y1oKGEz22" : {
+      "axis" : 1,
+      "coordinates" : {
+        "x" : 24,
+        "y" : 91
+      },
+      "direction" : "S"
+    },
+    "-KWSuyFTG0HlcUSq54Lp" : {
+      "axis" : 0,
+      "coordinates" : {
+        "x" : 12,
+        "y" : 50
+      },
+      "direction" : "E"
+    }
+  }
+}
